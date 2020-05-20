@@ -1,0 +1,10 @@
+1 Webpack (import/exports);
+2 Babel;
+3 Scss;
+4 Eslit;
+5 -2 modes
+-dev 
+ dev-server, sourseMap, Eslint, not minified JS & CSS;
+-prod 
+Minified code;
+6 Git flow - (система взаимодействий с Git);
