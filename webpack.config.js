@@ -50,7 +50,7 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hnr: isDev,
+              hmr: isDev,
               reloadAll: true
             }
           },
