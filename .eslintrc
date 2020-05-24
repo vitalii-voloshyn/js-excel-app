@@ -6,10 +6,15 @@
     "node": true
   },
   "rules": {
-   "semi": "off",
-   "arrow-parens": "off",
-   "comma-dangle": "off",
-   "require-jsdoc": "off"
+    "semi": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off",
+    "operator-linebreak": "off",
+    "indent": "off"
   },
-  "extends": ["eslint:recommended", "google"]
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ]
 }
