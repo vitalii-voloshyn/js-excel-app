@@ -12,9 +12,9 @@ class Excel {
       const $el = $.create('div', Component.classname);
       const component = new Component($el);
       // debugg
-      if (component.name) {
-        window[component.name] = component
-      }
+      // if (component.name) {
+      //   window[component.name] = component
+      // }
       $el.html(component.toHTML());
       $root.append($el);
       return component
